@@ -23,9 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'a*^%#7!jb0k5f*_7d$^#b9oe08u1b^igh_v81%2p=23e%sl6-4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['3.129.89.120',
+		'incometaxlegalsala.com']
 
 
 # Application definition

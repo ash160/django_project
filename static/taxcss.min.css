@@ -397,7 +397,6 @@ fieldset {
 	margin: 0 0 1.5em 0;
 	border: 1px solid #ededed;
 	border-radius: 9px;
-	box-shadow: 0 1px 2px #ededed;
 }
 legend {
 	font-weight: bold;
@@ -4337,11 +4336,12 @@ header .entity-year-explanation {
 
 .primary-nav li a {
 	color: #888;
-	border-bottom: 2px solid #ddd;
+	border: 1px solid #ddd;
 	padding: 8px 10px;
 	width: 148px;
 	margin: 0 10px;
 	transition: background-color 170ms ease-in;
+	border-radius: 5px;
 }
 
 .primary-nav a:hover,
@@ -4352,7 +4352,7 @@ header .entity-year-explanation {
 .primary-nav .active {
 	font-weight: normal;
 	font-weight: 600;
-	color: #111;
+	color: #a50e0e;
 	
 }
 
@@ -4365,11 +4365,11 @@ header .entity-year-explanation {
 }
 
 .secondary-nav li a:hover {
-	color: #444
+	color: #a50e0e
 }
 
 .secondary-nav .active {
-	color: #444;
+	color: #a50e0e;
 	font-weight: 600;
 	z-index: 2;
 	position: relative
@@ -5939,16 +5939,16 @@ body {
 		width: 100%
 	}
 	.brand .logo-container a {
-		width: 100%;
-		background-image: url("/legalsalah.png");
-		background-position: center center;
-		background-size: 80%;
-		position: static;
-		height: 48px;
-		width: 120px;
-		display: block;
-		background-repeat: no-repeat
-	}
+	    width: 100%;
+	    background-image: url("../img/legalsalah.png");
+	    background-position: center center;
+	    background-size: 100%;
+	    position: static;
+	    height: 50px;
+	    width: 120px;
+	    display: block;
+	    background-repeat: no-repeat;
+    }
 	.brand .logo-container a img {
 		display: none
 	}
@@ -5979,7 +5979,7 @@ body {
 	}
 	header .brand h1 a {
 		width: 100%;
-		background-image: url("/legalsalah.png");
+		background-image: url("./legalsalahmobile.png");
 		background-position: center center;
 		background-size: 80%;
 		position: static;
@@ -6015,10 +6015,9 @@ body {
 	}
 	.header-tax-elements {
 		vertical-align: middle;
-		font-size: 18px;
+		font-size: 15px;
 		padding: 0 13px;
 		color: #fff;
-		text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
 		max-width: 55%
 	}
 	.header-tax-elements:link,
@@ -6123,7 +6122,7 @@ body {
 	}
 	.container {
 		width: initial;
-		background: #fcfcfc
+		background: #fafafa
 	}
 	#main .container {
 		position: relative;
@@ -6345,16 +6344,17 @@ body {
 		height: 2em
 	}
 	fieldset {
-		border-left: 0;
-		border-right: 0;
-		border-bottom: 0;
-		padding-left: 0;
-		padding-right: 0;
-		padding-bottom: 0;
-		margin-bottom: 0;
-		margin-left: 0;
-		margin-right: 0
-	}
+	    border-left: 0;
+	    border-right: 0;
+	    border-bottom: 0;
+	    padding-left: 0;
+	    padding-right: 0;
+	    padding-bottom: 0;
+	    margin-bottom: 0;
+	    margin-left: 0;
+	    margin-right: 0;
+	    border-top: 0;
+    }
 	fieldset+fieldset {
 		margin-top: 15px;
 		margin-bottom: 15px
